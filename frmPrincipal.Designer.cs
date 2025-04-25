@@ -142,6 +142,7 @@
             // 
             // cboPagos
             // 
+            this.cboPagos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboPagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboPagos.FormattingEnabled = true;
             this.cboPagos.Items.AddRange(new object[] {
@@ -171,7 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(800, 558);
+            this.ClientSize = new System.Drawing.Size(812, 558);
             this.Controls.Add(this.lblLista);
             this.Controls.Add(this.cboPagos);
             this.Controls.Add(this.lblResultado);
